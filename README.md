@@ -1,9 +1,11 @@
-Android **Notes App** demonstrating **SQLite** database.
+****Still in development*****
 
-[Tutorial](https://www.androidhive.info/2011/11/android-sqlite-database-tutorial/)
+Assignment:
 
-[Apk](http://download.androidhive.info/apk/sqlite-notes-app.apk)
+Please write a small note-taking application that has 2 screens:
 
-[Video Demo](https://www.youtube.com/watch?v=4YxUtIkG_gc)
+1) MainActivity with a RecyclerView that displays recorded notes (Title, message, date). It can also have a button to record a new note
 
-![Android SQLite Notes App](https://www.androidhive.info/wp-content/uploads/2011/11/android-sqlite-notes-app.png)
+2)NoteEditActivity that lets the user create new or edit an existing note. It should have two input fields: Title and Message
+
+The notes should be recorded in the local SQLite database.
